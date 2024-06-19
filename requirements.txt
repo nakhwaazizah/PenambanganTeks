@@ -1,0 +1,11 @@
+streamlit==1.10.0
+scikit-learn==1.0.2
+pickle-mixin==1.0.2
+Sastrawi==1.0.1
+nltk==3.6.7
+imblearn==0.0
+numpy==1.23.4
+pandas==1.5.2
+plotly==5.13.1
+matplotlib==3.6.2
+matplotlib-inline==0.1.6
