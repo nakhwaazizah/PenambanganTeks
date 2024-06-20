@@ -5,6 +5,8 @@ import re
 from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
 
 # Load the trained model and TF-IDF vocabulary
 model = pickle.load(open("model_sentimen.sav", "rb"))
