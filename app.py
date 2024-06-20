@@ -48,7 +48,7 @@ def stemming(text):
   return text
 
 # Define Streamlit app
-st.title("Sentiment Analysis App")
+st.title("Sentiment Analysis Hotel Review")
 
 text_input = st.text_area("Enter the text to analyze")
  
